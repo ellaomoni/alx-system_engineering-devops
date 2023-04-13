@@ -1,1 +1,2 @@
-echo"printing script in alx system engineering devops"
+#!/bin/bash
+echo"Starting alx system engineering devops"
