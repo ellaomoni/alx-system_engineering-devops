@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -npr --update --verbose *.html .. 
+cp -npuv ./*.html ../ 
