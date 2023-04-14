@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -na,e '*.html' -type f -newer .. -exec cp -p {} .. \
+cd "$(dirname "$0")"; cp -npr --update --verbose *.html "$(dirname "$(pwd)")" 
