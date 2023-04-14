@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$(dirname "$0")"; cp -npr --update --verbose *.html "$(dirname "$(pwd)")" 
+cp -npr --update --verbose *.html .. 
